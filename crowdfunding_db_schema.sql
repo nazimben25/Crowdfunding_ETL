@@ -48,6 +48,16 @@ CREATE TABLE   compaign   (
      )
 );
 
+ALTER TABLE  compaign  ADD CONSTRAINT  fk_compaign_contact_id  FOREIGN KEY( contact_id )
+REFERENCES  contacts  ( contact_id );
+
+ALTER TABLE  compaign  ADD CONSTRAINT  fk_compaign_category_id  FOREIGN KEY( category_id )
+REFERENCES  category  ( category_id );
+
+ALTER TABLE  compaign  ADD CONSTRAINT  fk_compaign_subcategory_id  FOREIGN KEY( subcategory_id )
+REFERENCES  subcategory  ( subcategory_id );
+
+
 
 SELECT * FROM category
 
