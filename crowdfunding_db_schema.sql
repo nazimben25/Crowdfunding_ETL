@@ -62,11 +62,11 @@ REFERENCES  subcategory  ( subcategory_id );
 
 
 
-SELECT * FROM category
+SELECT * FROM category;
 
-SELECT * FROM subcategory
+SELECT * FROM subcategory;
 
-SELECT * FROM contacts
+SELECT * FROM contacts;
 
-SELECT * FROM compaign
+SELECT * FROM compaign;
 
