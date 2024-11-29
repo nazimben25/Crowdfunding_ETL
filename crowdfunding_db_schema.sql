@@ -1,6 +1,9 @@
 ﻿-- crowdfunding_db_schema.sql
 -- 
-
+DROP TABLE IF EXISTS category ;
+DROP TABLE IF EXISTS subcategory;
+DROP TABLE IF EXISTS contacts;
+DROP TABLE IF EXISTS compaign;
 
 CREATE TABLE   category   (
       category_id   varchar(6)   NOT NULL,
